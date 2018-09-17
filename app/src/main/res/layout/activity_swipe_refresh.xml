@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:divider="@color/colorPrimaryDark"
-        app:showDividers="beginning">
+        app:divider="@drawable/shape_line"
+        app:showDividers="middle|end">
 
         <com.android.training.materialdesign.swiperefresh.RefreshProgressBar
             android:id="@+id/progress_bar"
